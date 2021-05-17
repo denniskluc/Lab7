@@ -38,7 +38,7 @@ router.setState = function(state, backBtn) {
    *    1. You may add as many helper functions in this file as you like
    *    2. You may modify the parameters of setState() as much as you like
    */
-  if (state.name === 'home') {
+  if (state === null || state.name === 'home') {
     body.className = '';
     title.innerHTML = 'Journal Entries';
     if (!backBtn) {
