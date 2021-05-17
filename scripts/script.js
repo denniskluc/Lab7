@@ -1,3 +1,5 @@
+
+
 // script.js
 
 import { router } from './router.js'; // Router imported so you can use it to manipulate your SPA app here
